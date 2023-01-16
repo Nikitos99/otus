@@ -11,7 +11,14 @@ h1, h2, h3, p {
 button {
     cursor:pointer;
 }
+div { 
+    margin: 15px;
+}
 
 .main_text {
     font-size:40px;
+}
+
+p.blue_text {
+    color:blue;
 }
