@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Tahoma", "Open-Sans", "Verdana", sans-serif;
+  
+  background-color: black;
+}
+
+/* normalized styles */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main { 
+  max-width:1110px;
+  margin:auto;
+}
+
+.flex_container{
+  display:inline-flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.services {
+  width:350px;
+  height:346px;
+  padding:40px 32px 40px 32px;
+  border-radius:8px;
+  box-sizing:border-box;
+  background-color:white;
+  margin-bottom: 30px;
+}
+
+.services h3 {
+  margin-top:56px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #18191F;
+}
+
+.services p {
+  margin-top:12px;
+  margin-bottom:40px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18191F;
+}
+
+.services a {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8C30F5;
+}
+
+.header {
+  text-align:center; 
+  color:white;
+  max-width:660px;
+  margin:auto;
+  margin-top:80px;
+  margin-bottom:48px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'liga' off;
+}
+
+.button {
+  display:flex;
+  justify-content:center;
+}
+.button img {
+  width:22px;
+  margin-left:5px;
+}
+
+.button button {
+  background-color:black;
+  cursor:pointer;
+  border:1px solid white;
+  padding:16px 21px;
+  border-radius:8px;
+  color:white;
+}
+
+/* media */
+@media screen and (max-width: 1440px) {
+  .services {
+    background-color: #FFDCDC;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flex_container {
+    justify-content: space-evenly;
+  }
+  .services {
+    background-color: #FFB7B7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex_container {
+    justify-content: space-evenly;
+  }
+  .services {
+    background-color: #FF9191;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .flex_container {
+    justify-content: space-evenly;
+  }
+  .services {
+    background-color: #FF5757;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flex_container {
+    justify-content: space-evenly;
+  }
+  .services {
+    background-color: #FF2E2E;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .flex_container {
+    justify-content: space-evenly;
+  }
+  .services {
+    background-color: #FF0000;
+  }
+}
