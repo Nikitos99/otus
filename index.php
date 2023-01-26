@@ -54,6 +54,12 @@
 		<div class="button">
 			<button>Explore all <img src="icons/arrow-right-white.png"></button>
 		</div>
+	<footer>
+		<?=date('d.m.Y')?>
+		<?php 
+		echo time();
+		?>
+	</footer>
 	</section>
 </body>
 
