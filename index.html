@@ -5,25 +5,19 @@
 	<meta http-equiv="X-UA-Compatable" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		Header
-		<nav>
-			<a href="#">Link1</a>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h1> Main section</h1> 
-			<p>Go Go Go</p>
-		</section>
-	</main>
-
+	<section class="main">
+		
 	<footer>
-		Footer
+		<?=date('d.m.Y')?>
+		<?php 
+		echo time();
+		?>
 	</footer>
+	</section>
 </body>
 
 </html>
