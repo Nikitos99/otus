@@ -5,18 +5,23 @@
 	<meta http-equiv="X-UA-Compatable" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<section class="main">
 		
-	<footer>
-		<?=date('d.m.Y')?>
-		<?php 
-		echo time();
-		?>
-	</footer>
+	<div class="container">
+  <div class="row">
+    <aside class="col-12 col-md-3 col-lg-2">
+        Боковая панель
+    </aside>
+    <main class="col">
+        Основной контент
+    </main>
+  </div>
+</div>
 	</section>
 </body>
 
